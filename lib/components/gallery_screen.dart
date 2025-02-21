@@ -15,6 +15,7 @@ class GalleryScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Galería"),
         elevation: 15,
+        backgroundColor: Colors.deepPurpleAccent,
       ),
       body: ListView.builder(
         itemCount: images.length,

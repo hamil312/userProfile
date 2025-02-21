@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Inicio"),
         elevation: 15,
+        backgroundColor: Colors.deepPurpleAccent,
       ),
       body: Center(
         child: Column(

@@ -11,6 +11,7 @@ class ContactScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Contacto"),
         elevation: 15,
+        backgroundColor: Colors.deepPurpleAccent,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
