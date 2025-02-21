@@ -6,8 +6,8 @@ class GalleryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<Map<String, String>> images = [
-      {"image": "../assets/montanas.jpg", "desc": "Paisaje hermoso"},
-      {"image": "../assets/playa.jpg", "desc": "Atardecer en la playa"},
+      {"image": "../assets/montanas.jpg", "desc": "Montañas"},
+      {"image": "../assets/playa.jpg", "desc": "Playa"},
       {"image": "../assets/nieve.jpg", "desc": "Montañas nevadas"},
     ];
 
